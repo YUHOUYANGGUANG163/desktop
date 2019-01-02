@@ -30,7 +30,7 @@ jobs:
         displayName: 'Publish code coverage results'
         inputs:
           codeCoverageTool: 'cobertura'
-          summaryFileLocation: '**/coverage/cobertura-coverage.xml'
+          summaryFileLocation: '**/app/coverage/cobertura-coverage.xml'
 
   - job: Linux
     pool:
